@@ -88,6 +88,16 @@ main{
         color:aliceblue
     }
 
+    .card {
+           background-color: rgb(204, 144, 47);
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    align-items: center;
+    }
+
+
+
     #banco {
         align-items: center;
         justify-content: center;
@@ -121,5 +131,3 @@ main{
         color:rgb(255, 251, 0);
 
     }
-
-
