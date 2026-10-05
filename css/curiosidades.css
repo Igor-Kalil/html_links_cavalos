@@ -1,19 +1,19 @@
-*{
+html {
+    background-color: rgb(0, 0, 0);
+}
+
+ *{
         margin: 0%;
         padding: 0%;
         box-sizing: border-box;
     }
 
-html{
-    background-color: rgb(0, 0, 0);
-}
-    header {
+header {
 
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-
     #titulo-header {
 
         color:rgb(255, 253, 253);
@@ -26,54 +26,119 @@ html{
     font-weight: bold;
     font-size: 12px;
     }
-    .texto-pequeno {
-        color:aqua
+
+#menu {
+    gap: 30px;
+    display: flex;
+    padding-right: 40px ;
+}
+
+#logo {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+
+h1 {
+    color: white;
+}
+
+    a{
+        color:rgb(255, 251, 0);
+
     }
-    h2{
-        color:rgb(0, 109, 109)
-    }
-    #menu-header {
-        gap: 10px;
+
+#introducao {
+    background-color: rgb(22, 203, 209);
+    padding: 20px;
+    width: 100%;
+}
+
+main {
+    margin: 10px;
+}
+
+ #dois {
+    color:chocolate
+ }
+h2 {
+    font-size: 50px;
+    padding: 10px;
+}
+
+#curiosidades{
+    align-items: center;
+    margin-top: 10px;
+   
+
+}
+
+#cards {
+    background-color: rgba(132, 54, 6, 0.842);
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+}
+
+.segundo {
+    font-size: 30px;
+}
+
+
+.cardsecundario {
+
+    margin: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+.três{
+    font-size: 20px;
+}
+.cardsecundario p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.675);
+   
+}
+#cardprincipal p {
+    text-align: center;
+    color: white;
+}
+
+#cardprincipal img {
+    
+    height: 550px;
+    width: 550px;
+}
+
+h3 {
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+h4 {
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+
+
+
+small {
+    color: white;
+    display: flex;
+}
+        footer {
+            background-color:rgb(20, 20, 117);
         display: flex;
-
-    }
-
-    #menu-header p{
-    color:rgb(255, 255, 255);
-    font-size: 12px;
-    }
-
-
-main{
-        background-color: rgb(24, 72, 16);
-        padding: 20px;
-        margin: 10px;
-
-    }
-
-    #Hero {
-        display:flex;
         justify-content: space-between;
-        align-items: center;
-    }
-
-    #texto-hero h1{
-        font-size: 80px;
-        color:rgb(248, 244, 244);
-        padding: 10px;
-    }
-
-    #texto-hero small {
-        padding:10px;
-    }
-
-    #texto-hero p {
-        font-size: 16px;
-        color:rgb(248, 247, 247);
-        padding: 10px;
-    }
-
-    #img-hero img {
-        width: 350px;
         padding: 20px;
+        color:white;
     }
+
+span {
+    color: rgb(154, 153, 149);
+    font-weight: bold;
+    height: 0.5%;
+}

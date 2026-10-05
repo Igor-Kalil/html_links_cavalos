@@ -65,6 +65,8 @@ main{
 
     #texto-hero small {
         padding:10px;
+        color:chocolate;
+        height: 300px;
     }
 
     #texto-hero p {
@@ -85,17 +87,26 @@ main{
         justify-content: space-between;
         margin-top: 20px;
         flex-wrap:wrap;
-        color:aliceblue
+        color:aliceblue;
     }
 
+    #galeria-imgs {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    }
+    
+
     .card {
-           background-color: rgb(204, 144, 47);
+           background-color: rgba(201, 147, 11, 0.825);
     display: flex;
     padding: 30px;
     gap: 30px;
-    align-items: center;
     }
-
 
 
     #banco {
